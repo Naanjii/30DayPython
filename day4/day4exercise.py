@@ -37,7 +37,7 @@ print(company.find('C'))
 print(company.find('F'))
 print(company.rfind('I'))
 
-#exercise 23
+#exercise 23-27
 sentence_one = 'You cannot end a sentence with because because because is a conjunction'
 print(sentence_one.find('because'))
 print(sentence_one.rfind('because'))
@@ -45,3 +45,46 @@ first_slice = sentence_one[0:31]
 second_slice = sentence_one[55:]
 new_sentece = first_slice + second_slice
 print(new_sentece)
+
+
+#exercise 28-31
+print(cfa.startswith("Coding"))
+print(cfa.startswith("coding"))
+
+new_coding = '   Coding For All      '
+print(new_coding.strip("   "))
+#31
+'''
+    Which one of the following variables return True when we use the method isidentifier():
+        30DaysOfPython
+        thirty_days_of_python
+    thirty_days_of_python, cannot start with a number.
+'''
+#32
+this_list = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+next_list = '# '.join(this_list)
+print(next_list)
+
+#33
+this_sentence = "I am enjoying this challenge.\nI just wonder what is next."
+print(this_sentence)
+
+#34
+print('Name\tAge\tCountry\tCity')
+print('Asabeneh\t250\tFinland\tHelsinki')
+
+#35
+radius = 10
+area = 3.14 *radius ** 2
+print('The area of a cirlce with radius {} is {} meters square'.format(str(radius), str(area)))
+
+#36
+a = 8
+b = 6
+print('{} + {} = {}'.format(a, b, a + b))
+print('{} - {} = {}'.format(a, b, a - b))
+print('{} * {} = {}'.format(a, b, a * b))
+print('{} / {} = {:.2f}'.format(a, b, a / b))
+print('{} % {} = {}'.format(a, b, a % b))
+print('{} // {} = {}'.format(a, b, a // b))
+print('{} ** {} = {}'.format(a, b, a ** b))
