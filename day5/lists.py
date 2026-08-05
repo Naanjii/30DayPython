@@ -14,7 +14,7 @@ print(last_item)
 #exercise 5
 mixed_data = ['Nanji', 28, 68, 'Dating', 'Apartment']
 
-#exercise 6
+#exercise 6-11
 it_companies = ['Facebook','Google','Microsoft','Apple','IBM','Oracle','Amazon']
 print(it_companies)
 print(it_companies[0])
@@ -24,3 +24,5 @@ it_companies[3] = 'Samsung'
 print(it_companies)
 it_companies.append("ROGSTRX")
 print(it_companies)
+upper_it = it_companies[1].upper()
+print(upper_it)
